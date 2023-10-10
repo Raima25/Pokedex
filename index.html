@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Pokédex</title>
+</head>
+<body>
+    <div class="pokemon-info">
+        <h1 class="title">Bits of Good Mid-Semester Project</h1>
+        <div class="avatar-info">
+            <div class="avatar-box">
+                <img id="pokemon-image" src="" alt="Pokemon">
+            </div>
+            <div class="name-box">
+                <h2 id="pokemon-name">Pokemon Name</h2>
+            </div>
+            <div class="types-panel">
+                <h2 class="types-title">Types:</h2>
+                <div class="types-list">
+                    <p>Loading...</p>
+                </div>
+            </div>
+            <div class="arrow-buttons">
+                <button id="prev-button" class="arrow-button">↩</button>
+                <button id="next-button" class="arrow-button">↪</button>
+            </div>
+        </div>
+        <div class="stats-panel">
+            <h2 id="ititle" class="info-title">Info</h2>
+            <div id="info-panel" class="panel active">
+                <p>height: <span id="pokemon-height">Loading...</span></p>
+                <p>weight: <span id="pokemon-weight">Loading...</span></p>
+                <p>hp: <span id="pokemon-hp">Loading...</span></p>
+                <p>attack: <span id="pokemon-attack">Loading...</span></p>
+                <p>defense: <span id="pokemon-defense">Loading...</span></p>
+                <p>special-attack: <span id="pokemon-special-attack">Loading...</span></p>
+                <p>special-defense: <span id="pokemon-special-defense">Loading...</span></p>
+                <p>speed: <span id="pokemon-speed">Loading...</span></p>
+            </div>
+            <h2 id="mtitle" class="moves-title">Moves</h2>
+            <div id="moves-panel" class="panel">
+                <div id="pokemon-moves-container" class="moves-container">
+                    <p>Loading...</p>
+                </div>
+            </div>                
+            <div class="panel-buttons">
+                <button id="info-button" class="panel-button active">Info</button>
+                <button id="moves-button" class="panel-button">Moves</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
